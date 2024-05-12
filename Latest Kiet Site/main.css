@@ -1,0 +1,112 @@
+.full_page{
+    background-image: url(main\ img\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200vh;
+    width: 204.5vb;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.top1{
+    display: flex;
+    height: 3.5vh;
+    padding-left: 35vb;
+}
+.a1{
+    margin-top: 0.6vh;
+    margin-left: 1.5vb;
+    margin-right: 1.5vb;
+    font-size: 13px;
+    font-weight: 500;
+}
+.vL{
+    background-color: black;
+    height:19px;
+    width: 0.5px;
+    margin-top: 3px;
+
+}
+.top2{
+    display: flex;
+    height: 10vh;
+    margin-top: 1.5vh;
+    margin-left: 42vb;
+}
+.a2{
+    height: 10vh;
+    margin-left: 1vb;
+    margin-right: -1vb;
+    
+}
+.a2 img{
+    height: 8vh;
+    border-radius: 3rem;
+    
+}
+.a3{
+    margin-left: 2vb;
+}
+.a3 h2{
+    margin-top: 4vh;
+}
+.a31{
+    margin-top: -1.5rem;
+}
+.a311{
+    margin-left: 11vb;
+}
+.a311 h2{
+    font-size: 20px;
+    margin-top: 4.3vh;
+}
+.a311 p{
+    margin-top: 3vh;
+}
+.a4{
+    margin-left: 10vb;
+}
+.a2 i{
+    font-size: 34px;
+    margin-top: 1.2vh;
+    margin-left: vb;
+}
+.top3{
+    display: flex;
+    margin-left: 26vb;
+
+}
+.a5{
+    margin-left: 2vb;
+    margin-right: 2vb;
+    font-size: 18px;
+}
+.vL1{
+    background-color: black;
+    height:26px;
+    width: 1.5px;
+    margin-top: -3px;
+
+}
+.top1 a{
+    text-decoration: none;
+    color: black;
+}
+.top2 a{
+    text-decoration: none;
+    color: rgb(234, 67, 53);
+}
+.top3 a{
+    text-decoration: none;
+    color:black;
+}
+.top1 a:hover{
+    
+    color: rgb(21, 85, 165);
+}
+.top3 a:hover{
+    
+    color: rgb(21, 85, 165);
+}
+.a2 i:hover{
+    font-size: 38px;
+    
+}
