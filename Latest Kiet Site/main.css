@@ -1,10 +1,15 @@
 .full_page{
+    position: relative;
     background-image: url(main\ img\ 3.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-    height: 200vh;
+    height: 100vh;
     width: 204.5vb;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-attachment: fixed; 
+    background-position: center;
+    opacity: 1;
+    
 }
 .top1{
     display: flex;
@@ -44,20 +49,28 @@
 }
 .a3{
     margin-left: 2vb;
+    position: relative;
 }
 .a3 h2{
-    margin-top: 4vh;
+    margin-top: 4.5vh;
 }
 .a31{
     margin-top: -1.5rem;
+}
+.first .a31{
+    margin-top: -4vh;
+}
+.a31 p{
+    margin-top: 3vh;
 }
 .a311{
     margin-left: 11vb;
 }
 .a311 h2{
     font-size: 20px;
-    margin-top: 4.3vh;
+    margin-top: 4.2vh;
 }
+
 .a311 p{
     margin-top: 3vh;
 }
@@ -84,7 +97,12 @@
     height:26px;
     width: 1.5px;
     margin-top: -3px;
-
+}
+.a3 hr{
+    margin-top: -2.8vh;
+}
+.a311 hr{
+    margin-top: -2vh;
 }
 .top1 a{
     text-decoration: none;
@@ -110,3 +128,90 @@
     font-size: 38px;
     
 }
+.first p{
+    margin-top: 4vh;
+}
+@keyframes slideInFromTop {
+    0% {
+      transform: translateY(-160%);
+      opacity: 0;
+    }
+    25% {
+      transform: translateY(-160%);
+      opacity: 0;
+    }
+    50% {
+      transform: translateY(-115%);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-115%);
+      opacity: 1;
+    }
+  }
+  
+  .second {
+    animation: slideInFromTop 8s ease-in-out infinite; /* Adjust animation duration */
+  }
+  
+  @keyframes fadeaway {
+    0%, 45% {
+      opacity: 1;
+    }
+    55%, 100% {
+      opacity: 0;
+    }
+  }
+  
+  .first {
+    animation: fadeaway 8s ease-in-out infinite; /* Adjust animation duration */
+  }
+  /* mid-portion */
+  .announcement-sec{
+    height: 40vh;
+    width: 150vb;
+    display: flex;
+    margin-left: 20vb;
+    background-color: rgba(21, 86, 165, 0.948);
+    margin-top: 65vh;
+   padding-left: 15vb;
+    
+  }
+  .sec1{
+    margin-top: 5vh;
+    font-size: 20px;
+
+  }
+  .v2L{
+    height: 35vh;
+    width: 0.1vb;
+    background-color: black;
+    margin-top: 2vh;
+    margin-left: 16vb;
+  }
+  .sec2{
+    margin-top: vh;
+    margin-left: 20vb;
+  }
+  .sec2 h2{
+    font-size: 29px;
+    text-decoration: underline;
+  }
+  .Bgmi2{
+    background-image: url(Main\ page\ Image\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    min-height: 100vh;
+    width: 204.5vb;
+    margin-top: -5vh;
+    background-position: center;
+  }
+  .sec-page{
+    height: 40vh;
+    width: 150vb;
+    background-color: blue;
+    
+  }
+  
+  
