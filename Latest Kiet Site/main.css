@@ -1,9 +1,9 @@
 .full_page{
     position: relative;
-    background-image: url(main\ img\ 3.jpg);
+    background-image: url(main\ img1.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 100vh;
+    background-size: cover;
+    height: 102vh;
     width: 204.5vb;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-attachment: fixed; 
@@ -11,10 +11,17 @@
     opacity: 1;
     
 }
+.TOP{
+  position: sticky;
+  top: 0px;
+  
+}
 .top1{
     display: flex;
     height: 3.5vh;
     padding-left: 35vb;
+    background-color: white;
+    
 }
 .a1{
     margin-top: 0.6vh;
@@ -32,9 +39,14 @@
 }
 .top2{
     display: flex;
-    height: 10vh;
+    height: 8vh;
+    margin-bottom: 1vh;
     margin-top: 1.5vh;
-    margin-left: 42vb;
+    padding-left: 42vb;
+    background-color: white;
+    
+    
+    
 }
 .a2{
     height: 10vh;
@@ -84,8 +96,12 @@
 }
 .top3{
     display: flex;
-    margin-left: 26vb;
-
+    padding-top: 1vh;
+    margin-top: -1vh;
+    padding-left: 26vb;
+    height: 40vh;
+    
+    background:-webkit-gradient(linear, left bottom, left top, from(transparent), to(#000)), -webkit-gradient(linear, left bottom, left top, color-stop(5%, transparent), to(rgba(0, 0, 0, 0))) !important;
 }
 .a5{
     margin-left: 2vb;
@@ -93,10 +109,12 @@
     font-size: 18px;
 }
 .vL1{
-    background-color: black;
+    background-color: rgba(255, 255, 255, 0.621);
     height:26px;
     width: 1.5px;
     margin-top: -3px;
+    margin-right: 0.8vb;
+    margin-left: 0.8vb;
 }
 .a3 hr{
     margin-top: -2.8vh;
@@ -114,7 +132,10 @@
 }
 .top3 a{
     text-decoration: none;
-    color:black;
+    color:white;
+    font-weight: 100;
+    font-size: 16px;
+    opacity: 0.8;
 }
 .top1 a:hover{
     
@@ -166,14 +187,30 @@
   .first {
     animation: fadeaway 8s ease-in-out infinite; /* Adjust animation duration */
   }
-  /* mid-portion */
+  .reg{
+    height: 6vh;
+    width: 45vb;
+    background-color: rgb(255, 174, 0);
+    text-align: center;
+    transform: rotate(-90deg) ;
+    margin-top: -6vh;
+    margin-left: 179vb;
+    position: fixed;
+  }
+  .reg h3{
+    margin-top: -4.7vh;
+    color: white;
+  }
+  .reg a:hover{
+    color: white;
+  }
   .announcement-sec{
     height: 40vh;
     width: 150vb;
     display: flex;
     margin-left: 20vb;
-    background-color: rgba(21, 86, 165, 0.948);
-    margin-top: 65vh;
+    background-color: rgba(21, 86, 165, 0.978);
+    margin-top: 7.9vh;
    padding-left: 15vb;
     
   }
@@ -199,19 +236,164 @@
   }
   .Bgmi2{
     background-image: url(Main\ page\ Image\ 2.jpg);
+    position: relative;
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: fixed;
-    min-height: 100vh;
+    min-height: 102vh;
     width: 204.5vb;
-    margin-top: -5vh;
+    margin-top: 0vh;
     background-position: center;
   }
+  .courses{
+    margin-top: 1vh;
+    background-color: rgba(4, 255, 0, 0);
+    height: 100vh;
+    width: 204.5vb;
+  }
   .sec-page{
-    height: 40vh;
+    height: 43vh;
     width: 150vb;
-    background-color: blue;
+    background-color: rgba(255, 187, 0, 0.978);
+    padding-top: 0.5vh;
+    margin-top: 56vh;
+    margin-left: 25vb;
+  }
+  .c1{
+    display: flex;
     
   }
-  
-  
+  .heading{
+    margin-left: 25vb;
+  }
+  .heading h2{
+    font-size: 33px;
+  }
+  .HL{
+    margin-top: -1ch;
+    width: 95vb;
+  }
+  .HL hr{
+    color: black;
+    opacity: 0.5;
+  }
+  .row1{
+    margin-left: 5vb;
+    margin-right: -3vb;
+  }
+  .l1{
+    margin-top: 1.9vh;
+  }
+  .row1 a{
+    text-decoration: none;
+    margin-top: 0.1vh;
+    font-size: 18px;
+    color: black;
+  }
+  .row3{
+    margin-top: -11vh;
+    margin-left: 13vb;
+  }
+  .row3 a{
+    text-decoration: none;
+    font-size: 28px;
+    color: black;
+  }
+  .HL1{
+    margin-top: -2.6vh;
+    opacity: 0.5;
+  }
+  .Bgmi3{
+    background-image: url(kiet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    width: 204.5vb;
+    margin-top: 0vh;
+    background-position: center;
+  }
+  .about-kiet{
+    margin-top: 38.5vh;
+    background-color: rgba(255, 255, 255, 0.966);
+    height: 58vh;
+    width: 170vb;
+    margin-left: 16vb;
+    padding-top: 1vh;
+  }
+  .head3{
+    margin-left: 71vb;
+    
+  }
+  .content{
+    display: flex;
+    margin-left: -24vb;
+  }
+  .d2{
+    display: flex;
+    
+  }
+  .d3{
+    text-align: right;
+  }
+  .photo{
+    display: flex;
+    width: 17vb;
+    height: 8vh;
+    margin-top: 3vh;
+  }
+  .photo i{
+    font-size: 30px;
+    margin-top: 2.5vh;
+    margin-right: 1.5vb;
+  } 
+  .photo p{
+    margin-right: 6vb;
+  } 
+  .vL2{
+    height: 8vh;
+    width: 15vb;
+    display: flex;
+    margin-top: 4vh;
+    margin-left: -4vb;
+  }
+  .arrowb{
+    font-size: 35px;
+    margin-top: 5.3vh;
+  }
+  .d1{
+    margin-left: 35vb;
+  }
+  .button1{
+    margin-left: 51.5vb;
+  }
+  .button1 a{
+    text-decoration: none;
+    color: rgba(9, 28, 50, 0.978);
+    font-weight: 700;
+  }
+  /* .d6{
+    display: flex;
+  } */
+  .d4{
+    display: flex;
+  }
+  .d6{
+    margin-left: 6vb;
+  }
+  .d5{
+    width: 20vb;
+    margin-left: 5vb;
+  }
+  .data{
+    width: 20vb;
+    margin-left: 5vb;
+    justify-content: center;
+    
+  }
+  .data h2{
+    margin-left: 6vb;
+  }
+  .data p{
+    margin-left: 5vb;
+  }
